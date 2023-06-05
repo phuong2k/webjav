@@ -1,0 +1,11 @@
+.img__container{
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__container img{
+  width: 300px;
+  border-radius: 50%;
+  margin: 0;
+}

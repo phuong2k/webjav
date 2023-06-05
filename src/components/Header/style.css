@@ -1,0 +1,37 @@
+.header {
+  position: relative;
+}
+.header__nav {
+  position: absolute;
+  z-index: 1;
+  top: 53.5px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header__nav__logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.header__nav__logo a {
+  margin-left: 30px;
+}
+.header__nav__logo img {
+  width: 18vw;
+}
+.nav__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__nav {
+    top: 20px;
+  }
+  .header__nav__logo img {
+    width: 35vw;
+  }
+  .nav__container{
+    display: none;
+  }
+}
