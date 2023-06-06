@@ -6,16 +6,20 @@
 .slick-dots{
   position: relative;
   bottom: -20px;
-  
+  background-color: #E6ECF5;
 }
 .slick-dots li {
     margin: 0 12px;
   }
 .slick-dots li button:before{
   font-size: 20px;
-  color: #e6ecf5
+  color: #CFDBEB;
+  opacity: 1;
 }
 .slick-dots li.slick-active button:before{
   color: #2E63A9
+}
+.slick-slider{
+  background-color: #E6ECF5;
 }
 
